@@ -1,0 +1,7 @@
+[package]
+name = "blinktdemo"
+version = "0.1.0"
+authors = ["Gergely Imreh <imrehg@gmail.com>"]
+
+[dependencies]
+blinkt = "0.1.1"
