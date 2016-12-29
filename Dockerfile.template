@@ -6,6 +6,9 @@ ENV INITSYSTEM on
 RUN apk add --no-cache \
       build-base curl file sudo
 
+RUN adduser -S resin
+USER resin
+
 RUN curl -sSf https://static.rust-lang.org/rustup.sh | sh
 
 COPY . ./
